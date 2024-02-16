@@ -22,7 +22,7 @@ class ItemsViewController: UITableViewController {
     override func viewWillAppear(_ animated: Bool) {
         super.viewWillAppear(animated)
         NotificationCenter.default.post(notification)
-        tableView.reloadData()
+//        tableView.reloadData()
     }
     
     @IBAction func addNewItem(_ sender: UIBarButtonItem) {
